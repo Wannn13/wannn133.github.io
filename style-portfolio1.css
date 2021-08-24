@@ -1,0 +1,440 @@
+body{
+    font-family: 'Quicksand';
+    color: black;
+    font-weight: 500;
+}
+h2{
+    font-weight: 550;
+}
+
+/* Navbar */
+.navbar a{
+    color: black !important;
+    font-family: 'Quicksand';
+    font-weight: 800;
+}
+.navbar-toggler{
+    background-color: #F0E108;
+    border:none;
+}
+.navbar .nav-link{
+    margin-top: 10px;
+}
+
+
+
+/* Jumbotron */
+.jumbotron-fluid{
+    color: black;
+    padding-top: 20%;
+    background-color: #fff;
+}
+.img-ridwan{
+    width: 110px;
+    margin-left: 5%;
+}
+.jumbotron-fluid h1, .jumbotron-fluid p{
+    font-weight: 600;
+}
+.jumbotron-fluid h1{
+    font-size: 30px;
+    margin-top: -110px;
+    margin-left: 35%;
+}
+.jumbotron-fluid p{
+    font-size: 15px;
+    margin-top: -2px;
+    margin-left: 35%;
+}
+.jumbotron-fluid .all-content{
+    margin: auto;
+}
+
+
+
+/* About Me*/
+#about{
+    padding-top: 7rem;
+}
+.img-about{
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px 1px;
+}
+.garis-aboutme{
+    background-color: #F0E108;
+    margin: auto;
+    width: 140px;
+    height: 15px;
+    margin-top: -3%;
+}
+#about p{
+    padding: 10px;
+    text-align: justify;
+}
+#about .ig ,.fb, .t, .l{
+    margin: 0 5px;
+    padding: 2px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #F0E108;
+}
+#about .sosial-media a{
+    padding:4px;
+    margin: auto;
+    color:#fff;
+}
+
+
+/* Project */
+#projects{
+    padding-top: 20%;
+    background-color: #fff;
+}
+.garis-project{
+    background-color: #F0E108;
+    margin: auto;
+    width: 150px;
+    height: 15px;
+    margin-top: -3%;
+}
+.garis-programming{
+    background-color: #fff;
+    margin: auto;
+    width: 180px;
+    height: 15px;
+    margin-top: -3%;
+}
+.garis-design{
+    background-color: #fff;
+    margin: auto;
+    width: 230px;
+    height: 15px;
+    margin-top: -3%;
+}
+.project .img-thumbnail{
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 2px 2px;
+}
+.project img{
+    width: 400px;
+    border-radius: 10px;
+    border:none;
+}
+#projects p{
+    margin-top: 5px;
+    color: #fff ;
+}
+#projects .icon{
+    width: auto;
+    height: 30px;
+    margin-top: -10px;
+}
+#projects .project-programming{
+    width: 290px;
+}
+#projects .projects-design{
+    margin-top: 100px;
+    width: 350px !important;
+}
+
+/* Overlay */
+.overlay{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0,0,0,0);
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.overlay img{
+    margin-top: 100px;
+    border-radius: 0;
+    transition: 1s;
+}
+.overlay:target{
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.overlay:target img{
+    animation: fade 1.5s;
+}
+.overlay .close img , .close-design img{
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+    position: absolute;
+    top: -40px;
+    left: 80%;
+}
+/* Animasi Overlay */
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+
+
+/* Skill */
+#skill{
+    padding-top: 20%;
+}
+#skill img{
+    width: 65px;
+    padding: 10px;
+}
+.garis-skill{
+    background-color: #F0E108;
+    margin: auto;
+    width: 200px;
+    height: 15px;
+    margin-top: -1%;
+}
+.icon-skill img{
+    width: 50px;
+}
+
+
+/* Contact Me */
+#contact{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.garis-contact{
+    background-color: #F0E108;
+    margin: auto;
+    width: 160px;
+    height: 15px;
+    margin-top: -4%;
+}
+.form-contact{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F0E108;
+}
+.form-control{
+    border:#fff solid 1px;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+.button{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: 520;
+    
+}
+.button:hover{
+    background-color: #fcfcfc;
+    color: black;
+}
+
+
+/* Footer */
+footer{
+    padding: 1rem;
+    background-color: #F0E108;
+}
+#footer .ig ,#footer .fb,#footer .t,#footer .l{
+    margin: 20px 5px;
+    padding: 2px;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#footer .sosial-media a{
+    padding:4px;
+    margin: auto;
+    color:#F0E108;
+}
+footer p{
+    font-weight: 600;
+}
+
+
+
+/* MOBILE VERSION */
+@media (max-width: 500px){
+
+    .navbar .nav-link:hover{
+        background-color: #F0E108;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+
+
+    #about, #project, #skill, #contact{
+        padding-top: 30%;
+    }
+
+    .garis-contact{
+        margin-top: -3%;
+    }
+    .garis-skill{
+        width: 150px;
+        margin-top: -10px;
+    }
+
+}
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px){
+    /* Navbar */
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 8px solid #F0E108;
+        width: 120%;
+        margin-top: -20%;
+        margin-left: -9%;
+    }
+
+    /* Jumbotron */
+    .jumbotron-fluid{
+        color: black;
+        padding: 7rem 0;
+        background-color: #fff;
+    }
+    .jumbotron-fluid .all-content{
+        margin-left: 0;
+        width: 700px;
+    }
+    .img-ridwan{
+        width: 250px;
+        animation: drop-down-jumbotron 1.2s;
+    }
+    .jumbotron-fluid h1 p{
+        text-align: left;
+    }
+    .jumbotron-fluid h1{
+        font-size: 60px;
+        font-weight: 600;
+        padding-top: 6rem;
+        margin: 0;
+    }
+    .jumbotron-fluid p{
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    /* About */
+    #about h2 span{
+        content: '';
+        display: block;
+        border: 8px solid #fff;
+        width: 160px;
+        margin-left: 43%;
+        margin-top: -20px;
+    }
+    .garis-aboutme{
+        background-color: #F0E108;
+        margin: auto;
+        width: 180px;
+        height: 15px;
+        margin-top: -18px;
+    }
+    #about .img-about{
+        width: 200px;
+    }
+    #about p{
+        margin-top: 120px;
+    }
+
+
+
+    /* Projects */
+    #projects{
+        padding: 7rem 0;
+    }
+    #projects{
+        background-color: #fff;
+    }
+    #projects .project-programming{
+        width: 390px;
+    }
+    #projects .projects-design{
+        margin-top: 100px;
+        width: 650px !important;
+    }
+    .garis-project{
+        background-color: #F0E108;
+        margin: auto;
+        width: 200px;
+        height: 15px;
+        margin-top: -18px;
+        animation: drop-down-desktop 1.2s;
+    }
+    /* Overlay */
+    .overlay .close img{
+        top:-45px;
+        left: 70%;
+    }
+    .overlay .close-design img{
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+    position: absolute;
+    top: -40px;
+    left: 80%;
+}
+
+    
+    /* Skill */
+    #skill{
+        padding: 7rem 0;
+    }
+    #skill .icon-skill img{
+        width: 100px;
+    }
+
+
+    /* Contact Me */
+    #contact{
+        padding: 7rem 0;
+    }
+    .garis-contact{
+        background-color: #F0E108;
+        margin: auto;
+        width: 200px;
+        height: 15px;
+        margin-top: -18px;
+    }
+    .form-contact{
+        margin: auto;
+        width: 700px;
+    }
+    .form-control{
+        margin: auto;
+        width: 600px;
+    }
+    .form-contact .button{
+        margin-left: 30px;
+    }
+    
+    /* Footer */
+    .footer{
+        background-color: #F0E108;
+    }
+
+    
+
+}
